@@ -1,0 +1,28 @@
+.nav-wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: antiquewhite;
+}
+.nav-wrapper > .nav-ulist{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  cursor: pointer;
+}
+.nav-ulist li{
+  margin-right: 2rem;
+}
+/* app-mid-container */
+.app-mid-container{
+  margin: 2rem;
+}
+
+/* footer */
+.footer{
+  background-color: antiquewhite;
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: bold;
+}
